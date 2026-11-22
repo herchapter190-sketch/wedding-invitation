@@ -50,6 +50,9 @@ img{display:block;max-width:100%}
 #intro{position:fixed;inset:0;z-index:50;background:#1e0a0d;display:flex;justify-content:center;transition:opacity 1.2s ease}
 #intro.gone{opacity:0;pointer-events:none}
 .frame{position:relative;width:100%;height:100%;overflow:hidden}
+.frame::before{content:'';position:absolute;inset:-40px;background:url(img/envelope.jpg) center/cover;filter:blur(22px) brightness(.62)}
+.stage.fit-w>img{-webkit-mask-image:linear-gradient(transparent,#000 7%,#000 93%,transparent);mask-image:linear-gradient(transparent,#000 7%,#000 93%,transparent)}
+.stage.fit-h>img{-webkit-mask-image:linear-gradient(90deg,transparent,#000 7%,#000 93%,transparent);mask-image:linear-gradient(90deg,transparent,#000 7%,#000 93%,transparent)}
 .stage{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);transform-origin:51.6% 46.9%;transition:transform 2.2s cubic-bezier(.6,.05,.3,1),filter 2s ease}
 .stage>img{width:100%;height:100%;object-fit:cover;user-select:none;-webkit-user-drag:none}
 #intro.open .stage{transform:translate(-50%,-50%) scale(1.9);filter:brightness(1.15) blur(2px)}
@@ -500,7 +503,11 @@ function draw(p){const s=p.s,[r,g,b]=p.c;cx.save();cx.translate(p.x,p.y);cx.rota
 
 /* ---------- envelope ---------- */
 const IMW=733,IMH=1100;
-function sizeStage(){const f=$('#frame').getBoundingClientRect();let w=f.width,h=w*IMH/IMW;if(h<f.height){h=f.height;w=h*IMW/IMH}const s=$('#stage');s.style.width=w+'px';s.style.height=h+'px'}
+// Fit the envelope to the screen width so its sides are never cropped on tall phones;
+// on wider screens allow a vertical crop only down to 72% (the envelope stays whole).
+function sizeStage(){const f=$('#frame').getBoundingClientRect(),s=$('#stage');let w=f.width,h=w*IMH/IMW;
+  if(h>f.height/.72){h=f.height/.72;w=h*IMW/IMH}
+  s.style.width=w+'px';s.style.height=h+'px';s.classList.toggle('fit-w',h<f.height-1);s.classList.toggle('fit-h',w<f.width-1)}
 sizeStage();addEventListener('resize',()=>{if($('#frame'))sizeStage()});
 let opened=false;
 $('#sealBtn').addEventListener('click',async()=>{
