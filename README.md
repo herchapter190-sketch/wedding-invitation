@@ -34,11 +34,11 @@ It was made as a design piece, not for a real event. The couple's story is told 
 ## In pictures
 
 <p align="center">
-  <img src="img/mosque.jpg" width="32%" alt="The couple silhouetted against a sunset, a mosque on the skyline">
+  <img src="img/engagement.jpg" width="32%" alt="The couple's hands, rings on, reaching up to a glowing 'We're Engaged!' sign framed by white flowers">
   <img src="img/sea.jpg" width="32%" alt="The couple at a railing above the sea, the water lit gold at sunset">
   <img src="img/dholki.jpg" width="32%" alt="Dholki stage: a white sofa among roses and greenery under hanging crystal strands">
 </p>
-<p align="center"><sub><i>sunset &nbsp;·&nbsp; golden hour &nbsp;·&nbsp; the dholki</i></sub></p>
+<p align="center"><sub><i>the engagement &nbsp;·&nbsp; golden hour &nbsp;·&nbsp; the dholki</i></sub></p>
 
 <br>
 
@@ -62,11 +62,11 @@ It was made as a design piece, not for a real event. The couple's story is told 
 
 **The envelope.** The page opens on a sealed burgundy envelope with a soft pulse around the seal. Tap it and a crack runs through the wax, the two halves fall away, and a burst of rose petals scatters across the screen. The view then zooms into the envelope and the letter appears.
 
-**The names.** *Bismillah* sits above an arched photograph. Then the couple's names type themselves out one letter at a time, each followed by their parents' names.
+**The names.** *Bismillah* sits above a large arched photograph from the engagement. Then the couple's names type themselves out one letter at a time, each followed by their parents' names, the invitation wording and the date. On a wider screen, the photograph and the names sit side by side.
 
-**A verse.** *"And We created you in pairs"* (Surah An-Naba, 78:8), in Arabic and English.
+**A verse.** *"And We created you in pairs"* (Surah An-Naba, 78:8), in Arabic and English, set on a deep wine band.
 
-**Pull to reveal.** The date is hidden inside a small scroll between two brass rods. Drag the tasselled rod down, or just tap it, and the paper unrolls to show *Wednesday, 23 December 2026*. More petals fall. A live countdown starts, with an *Add to calendar* link.
+**Pull to reveal.** Inside a framed card, the date is hidden in a small scroll between two brass rods. Drag the tasselled rod down, or just tap it, and the paper unrolls to show *Wednesday, 23 December 2026*. More petals fall. A live countdown starts, with an *Add to calendar* link.
 
 **Five days, five cards.** Dholki, Mehndi, Nikah, Baraat and Walima are stacked like a deck. You swipe them away or step through with the arrows. Tap a card and a sheet slides up with the venue, the host family, a short note and the dress code, shown as small colour swatches. Each event has its own directions and calendar link.
 
@@ -97,7 +97,7 @@ To run it locally, open `index.html` in a browser.
 
 ## The thinking behind it
 
-The palette comes from the envelope: deep wine, rose, linen and a touch of brass. The type is chosen to read like something printed and then signed by hand. Every interaction does something a paper invitation would do. You break a seal, pull a scroll open, leaf through cards and pass round photographs. The page stays narrow and quiet so the photographs and the words carry it.
+The palette comes from the envelope: deep wine, rose, linen and a touch of brass. The type is chosen to read like something printed and then signed by hand. Every interaction does something a paper invitation would do. You break a seal, pull a scroll open, leaf through cards and pass round photographs. The pages stay quiet, ivory paper with a single wine band, so the photographs and the words carry them.
 
 The aim was an invitation that feels like it was made for the guest holding it, and that's worth opening slowly.
 
