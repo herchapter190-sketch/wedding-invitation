@@ -66,7 +66,7 @@ It was made as a design piece, not for a real event. The couple's story is told 
 
 **A verse.** *"And We created you in pairs"* (Surah An-Naba, 78:8), in Arabic and English.
 
-**Pull to reveal.** The date is hidden inside a small scroll between two brass rods. Drag the tasselled rod down, or just tap it, and the paper unrolls to show *Saturday, 12 June 2027*. More petals fall. A live countdown starts, with an *Add to calendar* link.
+**Pull to reveal.** The date is hidden inside a small scroll between two brass rods. Drag the tasselled rod down, or just tap it, and the paper unrolls to show *Wednesday, 23 December 2026*. More petals fall. A live countdown starts, with an *Add to calendar* link.
 
 **Five days, five cards.** Dholki, Mehndi, Nikah, Baraat and Walima are stacked like a deck. You swipe them away or step through with the arrows. Tap a card and a sheet slides up with the venue, the host family, a short note and the dress code, shown as small colour swatches. Each event has its own directions and calendar link.
 
